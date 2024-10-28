@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/remixicon.css">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    
+
+
+</head>
+<body>
+    <!-- START HEADER -->
+    <header class="header" id="header">
+        <nav class="navbar"> 
+            <a href="#" class="nav-logo">
+                <img src="image/favicon.png" alt="logo image">
+                <h2>Sushi</h2>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="active-link" >Home</a></li>
+                    <li><a href="#about" >About Us</a></li>
+                    <li><a href="#popular">Popular</a></li>
+                    <li><a href="#recently">Recently</a></li>
+                    
+                </ul>
+                <div class="nav-close icons" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+                <img src="image/leaf-branch-4.png" alt="image navbar" class="img-nav-leaf1">
+                <img src="image/leaf-branch-3.png" alt="image navbar" class="img-nav-leaf2">
+            </div>
+            <div class="icons">
+                <i class="ri-search-line search-icon" id="search-icon"></i>
+                <i class="ri-moon-line  moon-icon" id="moon-icon" ></i>
+                <i class="container-cart"> 
+                    <i class="ri-shopping-cart-line" id="cart"></i>
+                    <span id="cart-count" class="count"></span>
+                </i>
+                <i class="ri-apps-2-line" id="menu-bar"></i>
+            </div>
+        </nav>
+        
+    </header>
+    <!-- Search From -->
+    <form action="" id="search-from">
+        <input type="search"placeholder="Search Here..." name="" id="search-box">
+        <label for="search-box" class="ri-search-line"></label>
+        <i class="ri-close-line" id="close-search-form"></i>
+    </form>
+    <!-- section cart -->
+    <div class="section-cart" id="section-cart">
+    
+         <div id="cartItem" class="cartItem">
+         
+            
+        </div>
+        <div class="total-container">
+            <h3>Total:</h3>
+            <h2 id="total">$ 0.00</h2>
+        </div>
+        <i class="ri-close-line" id="close-cart"></i>
+    </div>
+    <!-- =========Section Home======== -->
+    <section class="home" id="home">
+        <div class="slide container">
+                <div class="content">
+                    <span>Sushi Rolls</span>
+                    <h1 class="home-title">
+                        Enjoy Delicious
+                        <div>
+                            <img src="image/home-sushi-title.png" alt="home image">
+                            Sushi Food
+                        </div>
+                    </h1>
+                    <p class="home-desc">
+                        Enjoy a good dinner with the best dishes in
+                        the restaurant and improve your day 
+                    </p>
+                    <a href="#" class="button">
+                        Order Now <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="image">
+                    <img src="image/home-sushi-rolls.png" alt="" class="image-home">
+                </div>
+        </div>
+        <img src="image/leaf-branch-2.png" alt=" home image" class="home-leaf1">
+        <img src="image/leaf-branch-4.png" alt=" home image" class="home-leaf2">
+    </section>
+    <!--============== ABOUT US ==============-->
+        <section class="about" id="about">
+            <div class="about-container container">
+                <img src="image/about-sushi.png" alt=" about image" class="about-img">
+                <div class="about-data">
+                    <span class="section-subtitle"> About Us </span>
+                    <h2 class=" about-title">
+                        <div> We Provide 
+                            <img src="image/about-sushi-title.png" alt="about image">
+                        </div>
+                        Healthy Food 
+                    </h2>
+                    <p class="about-desc">
+                        Food comes to us from our relatives, whether they
+                        have wings or roots. This is how we consider food,
+                        it also has a culture. It has a history that passes 
+                        from generation to generation. 
+                    </p>
+                </div>
+            </div>
+            <img src="image/leaf-branch-1.png" alt=" about image" class="about-leaf">
+        </section>
+        <!-- =========Popular=========== -->
+        <section class="popular" id="popular">
+            <span class="section-subtitle">The Best food</span>
+            <h2 class="section-title">Popular Dishes</h2>
+            <div class="popular-container container">
+                <article class="popular-card">
+                    <img src="image/popular-1.png" alt="popular image" class="popular-image">
+                    <h3 class="popular-name">Onigiri Rols</h3>
+                    <span class="popular-desc">Japanese Dish</span>
+                    <span class="popular-price">$10.99</span>
+                    <button class="popular-button" >
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="popular-card">
+                    <img src="image/popular-2.png" alt="popular image" class="popular-image">
+                    <h3 class="popular-name">Spring  Rolls</h3>
+                    <span class="popular-desc">Japanese Dish</span>
+                    <span class="popular-price">$15.99</span>
+                    <button class="popular-button"  >
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+                <article class="popular-card">
+                    <img src="image/popular-3.png" alt="popular image" class="popular-image">
+                    <h3 class="popular-name">Sushi  Rolls</h3>
+                    <span class="popular-desc">Japanese Dish</span>
+                    <span class="popular-price">$19.99</span>
+                    <button class="popular-button" >
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+        <!-- =========Recently======== -->
+        <section class="recently" id="recently">
+            <div class="recently-container container ">
+                <div class="recently-data">
+                    <span class="section-subtitle"> Recently Added </span>
+                    <h2 class=" recently-title">
+                        Sushi Sammurai
+                        <div> 
+                            Salmon Cheese
+                            <img src="image/spinach-leaf.png" alt="about image">
+                        </div>
+                    </h2>
+                    <p class="recently-desc">
+                        Take a look at what's new. And do not 
+                        deprive yourself of a good meal, enjoy and 
+                        be happy 
+                    </p>
+                    <a href="#" class="button">
+                        Order Now <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <img src="image/recently-salmon-sushi.png" alt=" image recently" class="recently-img">
+            </div>
+            <img src="image/leaf-branch-2.png" alt=" about image" class="recently-leaf1">
+            <img src="image/leaf-branch-3.png" alt=" about image" class="recently-leaf2">
+
+        </section>
+        <!-- ========NewsLetter======= -->
+        <section class="newsletter">
+            <div class="newsletter-container container">
+                <div class="newsletter-content">
+                    <img src="/image/newsletter-sushi.png" alt="newsletter image" class="newsletter-img">
+                    <div class="newsletter-data">
+                        <span class="section-subtitle">Newsletter</span>
+                        <h2 class="section-title">
+                            Subscribe For <br>
+                            Updates
+                        </h2>
+                        <form action=""class="newsletter-form">
+                            <input type="email" placeholder="Enter Email" class="newsletter-input">
+
+                            <button class="button newsletter-button">
+                                Subscribe <i class="ri-send-plane-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <img src="image/spinach-leaf.png" alt=" newsletter image" class="newsletter-leaf-img">
+            </div>
+        </section>
+        <!-- ============footer========= -->
+        <footer class="container" >
+          <div class="footer">
+            <div class="col">
+                <div class="footer-img">
+                    <a href="#" class="footer-logo">
+                        <img src="image/favicon.png" alt="logo image">
+                        <h3>Sushi</h3>
+                    </a>
+                    <p>Food for the body is not 
+                        enough. <br> There must be food
+                        for the soul
+                    </p>
+                    <img src="image/spinach-leaf.png" alt="footer image" class="footer-spinach">
+                
+               
+                </div>
+            </div>
+            <div class="col">
+                <h3>Main Menu</h3>
+                <a href="#">About</a>
+                <a href="#">Menus</a>
+                <a href="#">Offers </a>
+                <a href="#">Events </a>
+            </div>
+            <div class="col">
+                <h3>Information</h3>
+                <a href="#">Contant</a>
+                <a href="#">Order & Returns</a>
+                <a href="#">Videos </a>
+                <a href="#">Resevation</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col">
+                <h3>Address</h3>
+                <a href="#">Av.Hocienda 1234
+                    <br>lima 4321 peru
+                </a>
+                <p>9AM-11PM</p>
+                
+            </div>
+            <div class="col">
+                <h3>Social Madia</h3>
+                <div class="icon"> 
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i> </a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <img src="image/spring-onion.png" alt="footer image" class="footer-spring"> 
+                </div>
+            </div>
+          </div>
+            <div class="item">
+                <div class="Copyright">
+                    <p> Copyright &copy; 2022 Aya Yousef</p>
+                </div>
+                <img src="image/leaf-branch-4.png" alt="image footer" class="footer-leaf">
+                <div class="footer-card">
+                    <img src="image/footer-card-1.png" alt="image footer" class="card-img">
+                    <img src="image/footer-card-2.png" alt="image footer"  class="card-img">
+                    <img src="image/footer-card-3.png" alt="image footer" class="card-img">
+                    <img src="image/footer-card-4.png" alt="image footer" class="card-img" >
+                </div>
+            </div>
+        </footer>
+     <!-- =========Scroll Up=============== -->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!-- =======loader======= -->
+    <div class="container-loader">
+        <img src="image/giphy.gif" alt="">
+    </div> -->
+     <!-- Scroll Reveal js -->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
